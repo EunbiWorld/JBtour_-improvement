@@ -9,7 +9,7 @@
 	background-position:50% 50%;
 	background-repeat:no-repeat;
 	background-size:cover;
-	background-image:url('/image/Gyeonggijeon_cut.jpg');
+	background-image:url('../image/Gyeonggijeon_cut.jpg');
 	filter: brightness(70%);}
 
 #visual .sub_visual > .in_Layer{

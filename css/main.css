@@ -530,7 +530,7 @@ nav.left_Box .left_call strong{font-size:18px; color:#fff; font-weight:400;     
 
 /****************************************************************************** visual ******************************************************************************/
 #visual .main_visual{
-    background:url('/image/iksan.webp') 50% 50% no-repeat;}
+    background:url('../image/iksan.webp') 50% 50% no-repeat;}
 
 #visual .main_visual{
     width:100%; 
@@ -708,15 +708,15 @@ nav.left_Box .left_call strong{font-size:18px; color:#fff; font-weight:400;     
     background-position:50% 50%; 
     background-repeat:no-repeat; }
 #contents .section.sec1{
-    background-image:url('/image/Gyeonggijeon.jpeg');}
+    background-image:url('../image/Gyeonggijeon.jpeg');}
 #contents .section.sec2{
-    background-image:url('/image/jeonjuchurch.jpeg');}
+    background-image:url('../image/jeonjuchurch.jpeg');}
 #contents .section.sec3{
-    background-image:url('/image/gochang2.jpeg');}
+    background-image:url('../image/gochang2.jpeg');}
 #contents .section.sec4{
-    background-image:url('/image/deogyusan.jpeg');}
+    background-image:url('../image/deogyusan.jpeg');}
 #contents .section.sec5{
-    background-image:url('/image/imsil.jpeg');}
+    background-image:url('../image/imsil.jpeg');}
 
 /****************************************************************************** footer ******************************************************************************/
 
