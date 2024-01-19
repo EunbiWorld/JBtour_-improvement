@@ -1,0 +1,44 @@
+@import url('/css/style.css');
+  .maincontainer{
+    width: 100%;
+    min-height: calc(100vh - 150px);
+  }
+  .community-bordercontainer{
+    padding: 0px 15% 50px;}
+  .border-top-container{
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: rgb(59, 117, 184);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  .community-bordercontainer li{
+    flex: 1 1 0%;
+    text-align: center;
+  }
+  .community-bordercontainer li:nth-child(2){
+    flex: 3 1 0%;
+    text-align: center;
+  }
+  .border-body-container{
+    width: 100%;
+  }
+  .border-list-container{
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: rgb(245, 248, 251);
+    color: rgb(51, 51, 51);
+    padding: 10px;
+    margin: 10px 0px;
+    cursor: pointer;
+    font-size: 0.9em;
+  }

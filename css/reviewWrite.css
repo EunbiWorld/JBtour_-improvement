@@ -1,0 +1,108 @@
+@import url('/css/style.css');
+
+  .maincontainer{
+    width: 100%;
+    min-height: calc(100vh - 150px);
+    margin-top: calc(150px);
+  }
+  .layout-writemain-container{
+    width: 100%;
+    min-height: calc(100vh - 150px);
+    margin-top: calc(-40px);
+  }
+  .community-writelist-body{
+    padding: 30px 15% 10px;
+    display: block;
+  }
+  .write-header{
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+.write-container{
+    width: 100%;
+    border-top: 2px solid rgb(59, 117, 184);
+    border-bottom: 2px solid rgb(59, 117, 184);
+}
+.write-area-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border: 0.3px solid rgb(221, 221, 221);
+}
+.write-area-title{
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 0.9em;
+    padding: 14px 20px;
+    flex: 1 1 0%;
+    background-color: rgb(251, 251, 251);
+    color: rgb(79, 79, 79);
+}
+.write-area-input{
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 0.9em;
+    padding: 14px 20px;
+    flex: 3 1 0%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(34, 34, 34);
+}
+.review-input{
+    width: 80%;
+    padding: 6px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+}
+.review-input input{
+    width: 100%;
+    border: none;
+    outline: none;
+    color: rgb(85, 85, 85);
+    font-size: 0.9em;
+}
+.review-text-area{
+    width: 100%;
+    padding: 6px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+}
+.review-text-area textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    color: rgb(85, 85, 85);
+    font-size: 0.9em;
+    resize: none;
+}
+.submit-btn{
+    margin-top: 30px;
+    padding: 0px 40%;
+}
+.submit-btn-style{
+    overflow: hidden;
+    position: relative;
+    font-size: 0.9em;
+    border-radius: 5px;
+    padding: 5px;
+    height: 45px;
+    color: rgb(255, 255, 255);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    background-color: rgb(59, 117, 184);
+}
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.write-category-selection{
+    padding: 10px 30px;
+}

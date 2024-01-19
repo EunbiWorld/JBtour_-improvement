@@ -1,0 +1,32 @@
+@import url('/css/style.css');
+.maincontainer{
+    width: 100%;
+    min-height: calc(100vh - 150px);
+    margin-top: calc(150px);
+  }
+.video-bordercontainer{
+    
+    padding: 30px 15% 50px;
+}
+.title{
+    width: 100%;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    padding-bottom: 50px;
+}
+.videolist-container{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    gap: 30px;
+}
+.video-container{
+    width: 490px;
+    height: 276px;
+}

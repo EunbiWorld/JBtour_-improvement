@@ -1,0 +1,120 @@
+@import url('/css/style.css');
+.container_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container_wrapper > div {
+  margin-bottom: 20px;
+}
+.container05 {
+      width: 800px;    
+      height: 300px; /**/
+      border: 1px solid black;
+      margin: 10px;
+      font-size:15px; /**/
+      justify-content: center; /* 수평 가운데 정렬 */
+      align-items: center;
+      margin-top: 50px;
+}
+.container05 img {
+  width: 300px;
+  height: 250px;
+  max-width: 100%; /* 이미지 너비가 컨테이너 너비를 초과하지 않도록 */
+  max-height: 100%; /* 이미지 높이가 컨테이너 높이를 초과하지 않도록 */
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.container06 {
+      width: 800px;    
+      height: 300px; /**/
+      border: 1px solid black;
+      margin: 10px;
+      font-size:15px; /**/
+      justify-content: center; /* 수평 가운데 정렬 */
+      align-items: center;
+}
+.container06 img {
+  width: 300px;
+  height: 250px;
+  max-width: 100%; /* 이미지 너비가 컨테이너 너비를 초과하지 않도록 */
+  max-height: 100%; /* 이미지 높이가 컨테이너 높이를 초과하지 않도록 */
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.container07 {
+      width: 800px;    
+      height: 300px; /**/
+      border: 1px solid black;
+      margin: 10px;
+      font-size:15px; /**/
+      justify-content: center; /* 수평 가운데 정렬 */
+      align-items: center;
+}
+.container07 img {
+  width: 300px;
+  height: 250px;
+  max-width: 100%; /* 이미지 너비가 컨테이너 너비를 초과하지 않도록 */
+  max-height: 100%; /* 이미지 높이가 컨테이너 높이를 초과하지 않도록 */
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.container08 {
+      width: 800px;    
+      height: 300px; /**/
+      border: 1px solid black;
+      margin: 10px;
+      font-size:15px; /**/
+      justify-content: center; /* 수평 가운데 정렬 */
+      align-items: center;
+}
+.container08 img {
+  width: 300px;
+  height: 250px;
+  max-width: 100%; /* 이미지 너비가 컨테이너 너비를 초과하지 않도록 */
+  max-height: 100%; /* 이미지 높이가 컨테이너 높이를 초과하지 않도록 */
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.text01 {
+  margin-top: -240px;
+  margin-left: 350px;
+  font-size: 30px;
+}
+.text01_1 {
+  margin-top: 30px;
+  margin-left: 350px;
+  line-height: 30px;
+}
+.text02 {
+  margin-top: -240px;
+  margin-left: 350px;
+  font-size: 30px;
+}
+.text02_1 {
+  margin-top: 30px;
+  margin-left: 350px;
+  line-height: 30px;
+}
+.text03 {
+  margin-top: -240px;
+  margin-left: 350px;
+  font-size: 30px;
+}
+.text03_1 {
+  margin-top: 30px;
+  margin-left: 350px;
+  line-height: 30px;
+}
+.text04 {
+  margin-top: -240px;
+  margin-left: 350px;
+  font-size: 30px;
+}
+.text04_1 {
+  margin-top: 30px;
+  margin-left: 350px;
+  line-height: 30px;
+  
+}

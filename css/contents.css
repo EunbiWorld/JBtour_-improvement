@@ -1,0 +1,88 @@
+
+
+/*--------------------------------------------------------:::: visual ::::--------------------------------------------------------*/
+#visual .sub_visual{
+	width:100%; 
+	height:340px; 
+	position:relative; 
+	display:table;
+	background-position:50% 50%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-image:url('/image/Gyeonggijeon_cut.jpg');
+	filter: brightness(70%);}
+
+#visual .sub_visual > .in_Layer{
+	position:relative;     
+	height: 100%;}
+
+@media screen and (max-width:1920px) {
+	#visual .sub_visual .sv_tit{
+		font-size:40px; 
+		display:table-cell}
+}
+
+@media screen and (max-width:640px) {
+	#visual .sub_visual{
+		height:280px;}
+	#visual .sub_visual .sv_tit{
+		font-size:35px; 
+		padding-top:40px;}
+}
+
+@media screen and (max-width:450px) {
+	/*lnb_area*/
+	#visual .sub_visual{height:240px;}
+		#visual .sub_visual .sv_tit{
+			font-size:30px; 
+			padding-top:40px;}
+}
+
+/*--------------------------------------------------------:::: contents ::::--------------------------------------------------------*/
+.sub_contents{
+	padding:0px 0px 0px;     
+	min-height: 800px;}
+.sub_contents .in_Layer{
+	padding:0px;}
+
+/*:: .sc_center ::*/
+.sub_contents .sc_center{
+	padding:50px 0 0 200px;
+  	width : -webkit-calc(100% - 240px);
+  	width :    -moz-calc(100% - 240px);
+  	width :         calc(100% - 240px);}
+.sub_contents .sc_center .sc_tit{
+	padding-bottom:40px; 
+	margin:0 80px 50px 80px; 
+	border-bottom:1px solid #ddd;}
+.sub_contents .sc_center .sc_tit h2{
+	font-size:32px; 
+	color:black; 
+	font-weight:500; 
+	margin-bottom:0px; 
+	line-height:1; 
+	float:left;}
+
+@media screen and (max-width:1800px) {
+	.sub_contents .sc_center{
+		float:none; 
+		width:100%; 
+		padding:0 6%; 
+		padding-top:40px; }
+}
+
+@media screen and (max-width:800px) {
+
+}
+@media screen and (max-width:450px) {
+	.sub_contents{
+		padding: 0% 0px 15%;}
+	.sub_contents .sc_center .sc_tit{
+		margin: 0 0 25px 0; 
+		padding-bottom: 30px;}
+	.sub_contents .sc_center .sc_tit h2{
+		font-size:22px;}
+}
+#footer {
+	margin-top: 50px;
+  }
